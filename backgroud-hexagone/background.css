@@ -1,0 +1,40 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  overflow: hidden;
+  min-height: 100vh;
+}
+
+.backPage {
+  height: 100vh;
+  background: black;
+}
+
+.hex {
+  background: url(./Hexagon.png) repeat;
+  position: absolute;
+  margin-top: 0;
+  padding-top: 0;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  z-index: 1;
+}
+
+.mouseMove {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 200px;
+  height: 200px;
+  background: linear-gradient(90deg, #a100fe 0%, #03f738 100%);
+  filter: blur(20px);
+  z-index: 0;
+}
+
+/* Fin du background */
+/*# sourceMappingURL=background.css.map */
